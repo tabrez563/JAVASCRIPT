@@ -1,1 +1,76 @@
+JavaScript Interview Syllabus
+
+1. Variables and Scoping
+   - var, let, const
+   - Hoisting, Temporal Dead Zone, Execution Context
+
+2. Branching Statements
+   - if-else, Nested if-else, Ladder if-else
+   - switch Case
+   - Loops for, while, do-while, for-of, for-in
+
+3. Functions in JavaScript
+   - Regular Functions
+   - Function Expressions
+   - Arrow Functions
+   - IIFE Immediately Invoked Function Expressions
+
+4. Arrays
+   - Methods push, pop, slice, splice, map, filter, forEach, find, findIndex, reduce
+
+5. Objects
+   - Object Literals
+   - Constructor Functions
+   - Reference Copy, Shallow Copy, Deep Copy, Structured Cloning
+   - Spread Operator
+
+6. DOM Manipulation
+   - Methods getElementById, getElementsByClassName, getElementsByTagName, createElement, removeElement
+   - Event Handling addEventListener, Event Bubbling, Event Capturing, stopPropagation
+
+7. Asynchronous JavaScript
+   - Callbacks, Callback Hell
+   - setTimeout and setInterval
+
+8. Promises
+   - Handling Promises
+   - Promise Chaining and Avoiding Promise Hell
+
+9. JSON
+   - JSON parse, JSON stringify
+
+10. Async Await
+   - Async Functions
+   - Exception Handling in Async Code
+
+11. Classes and Inheritance
+   - ES6 Classes
+   - Inheritance
+
+12. Storage APIs
+   - Local Storage
+   - Session Storage
+   - Cookies
+
+13. Date and Time
+   - Working with Date and Time in JavaScript
+   - UTC Time
+
+14. APIs
+   - Fetch API
+   - Axios
+
+15. this Keyword
+   - Understanding this in Different Execution Contexts
+
+16. Modules in JavaScript
+   - ES6 Modules import and export
+
+17. Strings
+   - String Methods includes, split, replace, trim, etc.
+   - Template Literals Template Strings
+
+18. Destructuring
+   - Array Destructuring
+   - Object Destructuring
 
