@@ -1,0 +1,80 @@
+ * What is JavaScript?
+
+JavaScript is a high-level, interpreted programming language used primarily to create interactive effects and dynamic content on websites. It runs in the browser and is a key part of the **Web Development trio**:
+
+* **HTML** – Structure
+* **CSS** – Styling
+* **JavaScript** – Interactivity
+
+✅ **Uses of JavaScript:**
+
+* Form validations
+* Creating dynamic web pages
+* Fetching data from servers (AJAX / APIs)
+* Animations
+* Web and mobile app development (with frameworks like React, Node.js, etc.)
+
+---
+
+### **Variables in JavaScript**
+
+A **variable** is like a container that stores data. You can change its value later.
+
+#### Declaring variables:
+
+```javascript
+var name = "John";    // Old way
+let age = 25;         // Modern and preferred
+const country = "India"; // Constant, cannot be changed
+```
+
+#### Differences between `var`, `let`, and `const`:
+
+| Keyword | Scope    | Reassignable | Redeclarable | Hoisted                   |
+| ------- | -------- | ------------ | ------------ | ------------------------- |
+| `var`   | Function | Yes          | Yes          | Yes                       |
+| `let`   | Block    | Yes          | No           | Yes (but not initialized) |
+| `const` | Block    | No           | No           | Yes (but not initialized) |
+
+---
+
+### **Scoping in JavaScript**
+
+**Scope** means where variables are accessible.
+
+#### 1. **Global Scope**:
+
+Variable is accessible **everywhere**.
+
+```javascript
+let a = 10;
+function show() {
+  console.log(a);  // Can access 'a'
+}
+```
+
+#### 2. **Function Scope** (mainly with `var`):
+
+Declared inside a function, accessible only inside that function.
+
+```javascript
+function test() {
+  var b = 20;
+  console.log(b);
+}
+// console.log(b); // ❌ Error: b is not defined
+```
+
+#### 3. **Block Scope** (with `let` and `const`):
+
+Accessible only inside a block (`{}`).
+
+```javascript
+{
+  let c = 30;
+  const d = 40;
+  console.log(c, d); // ✅
+}
+// console.log(c, d); // ❌ Error
+```
+
